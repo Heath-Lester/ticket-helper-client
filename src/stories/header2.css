@@ -1,0 +1,64 @@
+.wrapper--light {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .wrapper--light > svg {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .wrapper--light > h1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1;
+    margin: 6px 0 6px 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .wrapper--light > button + button {
+    margin-left: 10px;
+  }
+
+/* Dark Mode */
+  
+.wrapper--dark {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background-color: rgba(24, 24, 24, 0);
+  background: rgba(24, 24, 24, 0);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper--dark > svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wrapper--dark h1 {
+  color:rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wrapper--dark button {
+  /* background-color: white; */
+  margin-left: 10px;
+}
+
+.wrapper--dark button + button {
+  /* background-color: #1ea7fd; */
+  margin-left: 10px;
+}
